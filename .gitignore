@@ -8,3 +8,4 @@ transient
 .cache
 recentf
 snippets
+.lsp-session*

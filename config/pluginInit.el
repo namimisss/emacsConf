@@ -14,6 +14,11 @@
 (use-package ccls
   :ensure t)
 
+(use-package lsp-mode
+  :ensure t
+  :hook (c++-mode . lsp-deferred)
+  :commands (lsp lsp-deferred))
+
 (use-package magit
     :ensure t)
 
@@ -28,6 +33,17 @@
 
 (use-package ivy
   :ensure t)
+
+(use-package ivy-xref
+  :ensure t)
+
+(use-package lsp-ivy
+  :ensure t
+  :commands lsp-ivy-workspace-symbol)
+
+(use-package lsp-ui
+  :ensure t
+  :commands lsp-ui-mode)
 
 (use-package counsel
   :ensure t)
@@ -45,13 +61,16 @@
   :ensure t)
 
 (use-package which-key
-  :ensure t)
+  :ensure t
+  :config
+  (which-key-mode))
 
 (use-package dap-mode
   :ensure t)
 
 (use-package lsp-treemacs
-  :ensure t)
+  :ensure t
+  :commands lsp-treemacs-errors-list)
 
 ;; 2. plugin conf
 ;; company conf
