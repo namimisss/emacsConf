@@ -4,7 +4,7 @@
 (setq company-backends (delete 'company-semantic company-backends))
 ;;(define-key c-mode-map [(tab)] 'company-complete)
 ;;(define-key c++-mode-map [(tab)] 'company-complete)
-
+;; echo "" | g++ -v -x c++ -E -
 (add-to-list 'company-c-headers-path-system "/usr/include/c++/9")
 (add-to-list 'company-c-headers-path-system "/usr/include/x86_64-linux-gnu/c++/9")
 (add-to-list 'company-c-headers-path-system "/usr/include/c++/9/backward")
