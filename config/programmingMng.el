@@ -12,6 +12,8 @@
 ;;(define-key global-map [remap execute-extended-command] #'helm-M-x)
 ;;(define-key global-map [remap switch-to-buffer] #'helm-mini)
 
+(executable-find "clangd")
+
 (which-key-mode)
 (add-hook 'c-mode-hook 'lsp)
 (add-hook 'c++-mode-hook 'lsp)
