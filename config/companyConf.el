@@ -12,6 +12,7 @@
 (add-to-list 'company-c-headers-path-system "/usr/local/include")
 (add-to-list 'company-c-headers-path-system "/usr/include/x86_64-linux-gnu")
 (add-to-list 'company-c-headers-path-system "/usr/include")
+(add-to-list 'company-c-headers-path-system "~/.local/include")
 
 (add-to-list 'company-backends 'company-c-headers)
 

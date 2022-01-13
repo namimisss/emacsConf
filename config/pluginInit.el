@@ -72,8 +72,8 @@
   :ensure t
   :commands lsp-treemacs-errors-list)
 
-(use-package iedit
-  :ensure t)
+;;(use-package iedit
+;;  :ensure t)
 
 ;; 2. plugin conf
 ;; company conf
@@ -85,7 +85,7 @@
 ;; flycheck
 (require 'flycheckConf)
 ;; iedit
-(require 'iedit)
+;;(require 'iedit)
 ;; projectile Conf
 (require 'projectileConf)
 
