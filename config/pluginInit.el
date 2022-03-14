@@ -31,4 +31,21 @@
 (use-package projectile
   :ensure t)
 
+(use-package lsp-java
+  :ensure t
+  :defer t
+;  :init
+;  (setq lsp-java-server-install-dir
+;	"~/code/eclipseJdtLs")
+;  :hook (java-mode . (lambda()
+;		       (require 'lsp-java)
+		      ;;  (lsp-common-set)
+					;		       ))
+  )
+(use-package dap-java
+  :ensure nil)
+
+(use-package eglot-java
+  :ensure t)
+
 (provide 'pluginInit)

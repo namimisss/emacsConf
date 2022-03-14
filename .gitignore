@@ -10,3 +10,5 @@ recentf
 snippets
 .lsp-session*
 projectile-bookmarks.eld
+eclipse.jdt.ls
+workspace
