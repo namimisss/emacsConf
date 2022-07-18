@@ -48,4 +48,8 @@
 (use-package eglot-java
   :ensure t)
 
+(use-package elfeed
+  :ensure t)
+
+
 (provide 'pluginInit)
