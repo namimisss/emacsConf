@@ -51,5 +51,8 @@
 (use-package elfeed
   :ensure t)
 
+(use-package undo-tree
+  :ensure t)
+
 
 (provide 'pluginInit)

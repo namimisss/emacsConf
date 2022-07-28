@@ -19,6 +19,6 @@
 ;; (set-frame-font "Source Code Pro-18")
 
 ;; theme
-;;(load-theme 'solarized-light t)
+(load-theme 'solarized-light t)
 
 (provide 'emacsBasicConf)
